@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+header {
+    background-color: #e76f51;
+    /* display: inline-block; */
+}
+
+.navigation-bar {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: inline;
+}
+
+.nav-mid {
+    display: inline-flex;
+}
+
+.nav-mid li {
+    margin: 0px 10px;
+}
+
+.nav-right {
+    display: inline;
+    margin-right: 30px;
+}
+
+.main-box {
+    background-color: #f4a261;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-div {
+    width: 50%;
+
+}
+
+.main-heading {
+    font-size: xx-large;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.main-img {
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+}
+
+.gallery-heading {
+    text-align: center;
+}
+
+.gallery-box {
+    background-color: #e9c46a;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-top: 25px;
+    display: flex;
+    width: ;
+    
+}
+
+.img-one, .img-two, .img-three, .img-four {
+    padding top: 100px;
+    color: #3b3838;
+    font-weight: 100;
+    displa
+}
+.one, .two, .three, .four {
+    display: flex;
+    width: 12rem;
+    height: 18rem; 
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-heading {
+    text-align: center;
+}
+
+.subscribe-page {
+    display: flex;
+    margin: 0 auto;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.subscribe-header {
+    background-color: #e76f51;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px 0px 0px 20px ;
+}
+
+.subscribe-p {
+   margin-top: 0px;
+}
+/* .subscribe-h {
+    margin: 30px;
+} */
+
+.subscribe-box{
+    background-color: #f4a261;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 20px 20px 0px;
+    color: black;
+    font-weight: 400;
+}
+
+.subscribe-email {
+    margin-bottom: 25px;
+    margin-top: 10px;
+    width: 300px;
+    color: #888;
+}
+
+footer {
+    background-color: #e76f51;
+    text-align: center;
+    font-size: .05em;
+}
